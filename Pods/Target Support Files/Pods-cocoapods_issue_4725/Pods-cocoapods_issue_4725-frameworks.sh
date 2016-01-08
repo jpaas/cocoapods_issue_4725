@@ -86,8 +86,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-cocoapods_issue_4725/Bolts.framework"
   install_framework "Pods-cocoapods_issue_4725/Parse.framework"
+  install_framework "Pods-cocoapods_issue_4725/Realm.framework"
+  install_framework "Pods-cocoapods_issue_4725/RealmResultsController.framework"
+  install_framework "Pods-cocoapods_issue_4725/RealmSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-cocoapods_issue_4725/Bolts.framework"
   install_framework "Pods-cocoapods_issue_4725/Parse.framework"
+  install_framework "Pods-cocoapods_issue_4725/Realm.framework"
+  install_framework "Pods-cocoapods_issue_4725/RealmResultsController.framework"
+  install_framework "Pods-cocoapods_issue_4725/RealmSwift.framework"
 fi
